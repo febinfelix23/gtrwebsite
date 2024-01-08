@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Oxanium:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header h1{
+    font-family: "Oxanium";
+    margin: 20px;
+}
+
+header button{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    border-color: #fff;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.btn{
+    margin: 27px;
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+header img{
+    margin: 5px;
+}
+
+header p{
+    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.banner{
+    background-image: url(https://www.nissan.ca/content/dam/Nissan/Canada/Vehicles/gtr/2024/gallery/exterior-mosaic/nissan-gtr-solid-red-o.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 50% right 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.desc{
+    margin-top: 550px;
+    width: 100%;
+    height: 100px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.desc h2{
+    font-family: 'Oswald';
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.desc h3{
+    font-family: 'Oswald';
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.r32cont{
+    background-color: #fff;
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+}
+
+.r32desc{
+    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
+    width: 50%;
+    padding: 100px;
+}
+
+.r32desc p{
+    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
+    margin-top: 20px;
+}
+
+.r32img img{
+    border-radius: 20px;
+    margin-top: 45px;
+}
+
+.models{
+    background-color: #161616;
+    width: 100%;
+    height: 1800px;
+}
+
+.modelcont1{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modelcont2{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.R32{
+    width: 500px;
+    height: 600px;
+    margin-top: 200px;
+    background-image: url(https://images.unsplash.com/photo-1694114421204-12ab790d779a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bmlzc2FuJTIwZ3RyJTIwcjMyfGVufDB8fDB8fHww);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.R33{
+    width: 500px;
+    height: 600px;
+    margin-top: 200px;
+    background-image: url(https://images.unsplash.com/photo-1657853512026-004f7dbb390c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmlzc2FuJTIwZ3RyJTIwcjMzfGVufDB8MXwwfHx8MA%3D%3D);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.R34{
+    width: 500px;
+    height: 600px;
+    margin-top: 200px;
+    background-image: url(https://images.unsplash.com/photo-1619505372144-1e8d6b653662?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmlzc2FuJTIwZ3RyJTIwcjM0fGVufDB8MXwwfHx8MA%3D%3D);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.R35{
+    width: 500px;
+    height: 600px;
+    margin-top: 200px;
+    background-image: url(https://images.unsplash.com/photo-1619330490374-fa26afac302f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fG5pc3NhbiUyMGd0ciUyMHIzNHxlbnwwfDF8MHx8fDA%3D);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.namebtn h2{
+    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.namebtn{
+    width: 100%;
+    height: 200px;
+    margin-top: 400px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn1{
+    background-color: #fff;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: #161616;
+    color: #fff;
+}
+
+.btn2{
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color: #161616;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.sidebar li{
+    list-style: none;
+    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
+    margin: 50px 10px;
+    padding: 10px 100px  10px 10px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.sidebar li:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.1s ease-in;
+}
+
+.sidebar ul button{
+    width: 25px;
+    height: 25px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    border-color: #fff;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.sidebar ul button:hover{
+    cursor: pointer;
+}
+
+.discovercont{
+    width: 100%;
+    height: 400%;
+    margin: 0;
+    padding: 0;
+}
+
+.discover{
+    margin: 50px;
+}
+
+.imgcontainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.holder{
+    width: 350px;
+    height: 100%;
+}
+
+.img1{
+    width: 350px;
+    height: 220px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.img1 img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.holder p{
+    font-family: "Nissan Regular","Nissan Regular",Verdana,Arial,sans-serif;
+    font-weight: 100;
+    margin: 5px;
+}
+
+.holder p:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.discover h1{
+    font-family: 'Oswald';
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+
+footer{
+    width: 100%;
+}
+
+.footercont{
+    text-align: center;
+    padding: 50px;
+}
+
+.footercont h2{
+    font-size: 30px;
+    margin: 20px 0;
+    font-family: "Lato";
+}
+
+.icons{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin-left: 460px;
+    margin-top: 10px;
+}
+
+.icons i:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+
+.footercont p{
+    margin-top: 30px;
+    font-family: "Lato";
+}
+
+.listholder{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list{
+    width: 250px;
+    height: 300px;
+}
+
+.list dl{
+    font-family: 'Lato';
+    text-align: left;
+    line-height: 60px;
+}
+
+.list dl dt{
+    font-size: x-large;
+}
+
+.list dl dd{
+    font-size: large;
+}
+
+.list dl dd:hover{
+    cursor: pointer;
+    color: red;
+    transition: 0.5s ease;
+}
+
+.contact{
+    margin-top: 100px;
+}
